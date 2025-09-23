@@ -1,4 +1,4 @@
-# 💻 JavaScript Lessons
+# 💻 JavaScript Lessons ||
 
 ## 📁 Repository Structure
 
