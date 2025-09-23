@@ -1,0 +1,27 @@
+body {
+	background-color: #f0f0f0;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+
+}
+
+.main-box {
+	background-color: white;
+	width: 30%;
+	padding: 1rem;
+	margin: auto;
+
+	border-radius: 1rem;
+
+	display: flex;
+	flex-direction: column;
+
+	text-align: center;
+}
+
+h1 {
+	color: pink;
+}
