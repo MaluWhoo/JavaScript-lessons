@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.main-box {
+    background-color: white; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 0.5rem;
+    padding: 1rem;
+
+    box-shadow: 0px 0px 2px 0px #b1c9ff;
+
+    width: 25rem; 
+}
+
+h2 {
+    text-align: center;
+    width: 100%;
+}
+
+.precoGasolina, .precoAlcool {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    width: 23rem;
+    margin: 0.5rem 0rem;
+
+    border: 1px solid #36578096;  
+}
+
+.precoGasolina:hover{
+    transition: 0.1s;
+    box-shadow: 0px 0px 4px 2px #b1c9ff;
+}
+
+.precoAlcool:hover {
+    transition: 0.1s;
+    box-shadow: 0px 0px 4px 2px #b1c9ff;
+}
+
+.alert {
+    background-color: #B4CFEB;
+    color: #1b3657;
+    padding: 1rem;
+    margin: 0.5rem 0rem;
+    border-radius: 0.5rem;
+}
+
+.btn {
+    background-color: #036AF6;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0rem;
+}
+
+.btn:hover {
+    transition: 0.2s;
+    background-color: #062652;
+}

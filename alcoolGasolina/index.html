@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="script.js"> </script>
+
+    <title>Álcool ou Gasolina?</title>
+
+</head>
+<body>
+    <div class="main-box">
+        <div>
+            <h2 class="">
+                É melhor utilizar Álcool ou Gasolina?
+            </h2>
+        </div>
+
+        <form action="">
+            <div class="alcool">
+                <label for="alcool">Preço do álcool</label> <br>
+                <input type="text" placeholder="Digite o preço do álcool (Ex.: 2.20)" class="precoAlcool" id="alcool">
+            </div>
+
+            <div class="gasolina">
+                <label for="alcool">Preço da gasolina</label> <br>
+                <input type="text" placeholder="Digite o preço da gasolina (Ex.: 3.50)" class="precoGasolina" id="gasolina">
+            </div>
+
+            <div class="calcular">
+
+                <div class="alert" id="resultado">resultado</div>
+                <button type="button" class="btn" onclick="calcularMelhorPreco()">Calcular</button>
+
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>
