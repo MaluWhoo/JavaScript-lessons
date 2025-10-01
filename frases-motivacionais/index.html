@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- Javascript -->
+  <script type="text/javascript">
+
+    function gerarFraseMotivacional() {
+
+      const frases = [
+        
+        "Elementar, meu caro Watson.",
+        "A resposta para a vida, o universo e tudo mais é 42.",
+        "Não tenha pena dos mortos, Harry. Tenha pena dos vivos, e acima de tudo, daqueles que vivem sem amor",
+        "Não há necessidade de queimar livros, basta fazer com que as pessoas parem de lê-los.",
+        "Tempo é uma ilusão. Hora do almoço, uma ilusão ainda maior.",
+        "Há alguma magia até mesmo em um pouco de coragem.",
+        "Não podemos escolher o tempo em que vivemos. Só podemos decidir o que fazer com o tempo que nos é dado.",
+        "Um anel para a todos governar, um anel para encontrá-los, um anel para a todos trazer e na escuridão aprisioná-los.",
+        "Sou um cérebro, Watson. O resto é mero apêndice.",
+
+      ]
+
+      const numeroAleatorio = Math.floor(Math.random() * 9) // Numeros inteiros aleatorios. Aqui vai de 0 até 9
+      const frase = frases[numeroAleatorio]
+
+      document.getElementById('frase').innerHTML = frase
+
+    }
+
+  </script>
+
+  <title>Frases motivacionais</title>
+
+</head>
+
+<body>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-12">
+
+        <div class="jumbotron">
+          <h1 class="text-success display-5">Cotes de livros</h1>
+          <hr>
+
+          <h2 class="display-4" id="frase">
+            Em busca do ótimo não se faz o bom.
+          </h2>
+
+          <hr>
+          <button type="button" class="btn btn-success btn-lg" onclick="gerarFraseMotivacional()">Nova frase</button>
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
